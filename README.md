@@ -1,6 +1,6 @@
 # DailyJava
 
-This repository contains the daily Java practice and learning progress of Sanket Kadam.
+This repository contains the daily Java practice and learning progress.
 
 ##  Purpose
 
