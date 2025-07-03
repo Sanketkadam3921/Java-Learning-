@@ -7,11 +7,11 @@ public class SavingsAccount extends Account {
     @Override
     public void withdraw(double amount) {
         if (amount > balance) {
-            System.out.println("❌ Insufficient balance for savings account.");
+            System.out.println(" Insufficient balance for savings account.");
         } else {
             balance -= amount;
             transactionHistory.add(new Transaction("Savings Withdrawal", -amount));
-            System.out.println("✅ Withdrawal successful.");
+            System.out.println("Withdrawal successful.");
         }
     }
 }
